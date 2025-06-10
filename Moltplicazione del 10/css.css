@@ -1,0 +1,245 @@
+﻿body{
+   margin: 0;
+}
+
+.Section {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(0, 0, 0);
+ 
+}
+
+
+
+.h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 5px 5px rgb(178, 0, 214);
+    border: 2px rgb(255, 255, 255);
+}
+
+
+
+.position {
+
+    margin:40px auto;
+    text-align:center;
+    background-color: rgb(172, 158, 255);
+    width: 50%;
+    box-shadow: 0px 5px 10px 5px rgb(255, 0, 242);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+::selection {
+color: rgb(203, 104, 248);
+background: rgb(119, 0, 255);
+
+}
+
+
+ input {
+        background-color: rgb(194, 194, 194);
+        font-family: cursive;
+        color: rgb(0, 0, 0);
+        margin-right: 0.10cm;
+        text-align: center;
+        font-size: 0.40cm;
+        box-shadow: 5px red;
+        border-radius: 10px 10px 10px 10px;
+      
+    }
+
+
+input:hover {
+    color: black;
+    background-color: white;
+}
+
+
+input:focus {
+   border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+ .colorebottone {
+    border-bottom:3px solid rgb(0, 133, 55);
+    background-color: rgb(0, 241, 40);
+    margin:auto;
+    color:black;
+    font-family:arial;
+    padding:10px;
+    margin:5cm;
+    border-radius:10px;
+    margin:20px auto;
+    border: 2px solid rgb(0, 133, 55);
+
+ }   
+
+ .colorebotton {
+    border-bottom:3px solid rgb(150, 0, 0);
+    background-color: rgb(255, 0, 0);
+    margin:auto;
+    color:black;
+    font-family:arial;
+    padding:10px;
+    margin:5cm;
+    border-radius:10px;
+    margin:20px auto;
+    border: 2px solid rgb(150, 0, 0);
+ }   
+
+ .para {  
+    text-align:center;
+    background-color: rgb(201, 186, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 5p rgb(0, 0, 0);
+    width: 50%;
+  
+
+    box-shadow: 0px 0px 20px 5px rgb(255, 0, 242);
+    border-radius: 10px 10px 10px 10px;
+  
+ }
+
+ p {
+    background-color: rgb(181, 162, 250);
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 5px  rgb(105, 105, 105);
+
+ 
+        }
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}       
+
+
+.colorebottone:hover {
+    border-bottom:3px solid rgb(0, 133, 55);
+    background-color: rgb(0, 241, 40);
+    margin:auto;
+    color:rgb(255, 255, 255);
+    font-family:arial;
+    padding:10px;
+    margin:5cm;
+    border-radius:10px;
+    margin:20px auto;
+    border: 2px solid rgb(0, 0, 0);
+ }   
+
+ .colorebotton:hover {
+    border-bottom:3px solid rgb(150, 0, 0);
+    background-color: rgb(255, 0, 0);
+    margin:auto;
+    color:rgb(255, 255, 255);
+    font-family:arial;
+    padding:10px;
+    margin:5cm;
+    border-radius:10px;
+    margin:20px auto;
+    border: 2px solid black;
+ }  
+
+
+ .Avvetenza {
+    color:white;
+    background-color: rgb(158, 0, 250);
+    text-shadow: 0px 0px 10px black;
+ }
+
+ .disabilitato {
+        border-bottom:3px solid rgb(236, 236, 236);
+        background-color: rgb(71, 71, 71);
+        margin:auto;
+        color:black;
+        font-family:arial;
+        padding:10px;
+        margin:5cm;
+        border-radius:10px;
+        margin:20px auto;
+        border: 2px solid rgb(82, 15, 95);
+
+ }
+
+
+ tr, th{
+   
+   padding: 0.50cm;
+   
+   border: 1px solid black;
+ }
+
+ .TornaIndietro {
+   font-family:fantasy;
+   text-shadow: 1px 0 rgb(0, 0, 0), -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+   font-style: oblique;
+   font-size: 0.70cm;
+   color: rgb(255, 255, 255);
+   background-color: rgba(88, 88, 88, 0);
+   border: 1px solid rgb(0, 0, 0);
+   padding: 10px 35px 10px 35px;
+   border-radius: 5px;
+   background-image: url("https://img.freepik.com/free-photo/abstract-backdrop-with-vibrant-multicolored-shapes-patterns-generated-by-ai_188544-15580.jpg");
+   background-position: 0%;
+   cursor: pointer;
+   transition-duration: 0.50s;
+ 
+ }
+
+ .TornaIndietro:hover {
+   background-position: 20%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px 5px 5px 5px;
+   color: rgb(255, 0, 157);
+   font-family: fantasy;
+   box-shadow: 0px 0px 0px 4px rgb(255, 0, 157);
+   transition-duration: 0.50s;
+ 
+ }
+ 
+ a {
+   margin: 0.31cm;
+ }
+ 
+ .NavBar {
+ 
+   display: flex;
+   flex-direction: column;
+   background-color:  rgb(65, 109, 255) !important;
+   border-bottom: 1px solid black;
+ 
+ }
+ 
+ 
+ /* width */
+ ::-webkit-scrollbar {
+   width: 12px;
+   
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #000000;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: rgb(0, 110, 255);
+   border-radius: 2px;
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: rgb(255, 0, 157);
+ }
+ 
+ 

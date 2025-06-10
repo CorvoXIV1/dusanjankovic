@@ -1,0 +1,285 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: rgb(255, 255, 255) !important;
+}
+
+
+.city {
+    font-family: cursive;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 8.50cm;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(163, 163, 163) !important;
+
+
+}
+
+.tempAttuale {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-top: 30px;
+    padding-left: 15px;
+    width: 8.50cm;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(1, 82, 187);
+    border-color: rgba(122, 122, 122, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.tempAttuale:hover {
+    border-color: rgb(252, 235, 0);
+
+}
+#casitotali {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 1px 0px  rgb(177, 0, 0);
+}
+
+.casiattuali {
+    
+    color: rgb(0, 209, 17);
+    text-shadow: 0px 1px 0px  rgb(0, 116, 10);;
+}
+
+#casiattuali {
+    color: rgb(255, 0, 0);
+    
+}
+
+.CasiTotaliattuali {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 0.50cm;
+    text-align: center;
+    margin-left: 5px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px 5px 5px 5px;
+ 
+}
+
+
+.IMGCOVID {
+    border-radius: 50%;
+    width: 2cm; 
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.btn {
+
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    width: 8.50cm;
+    background: white;
+    border-color: white;
+
+}
+
+.btn1 {
+    color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    width: 8.50cm;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    border-color: white;
+    background-color: rgb(78, 78, 78);
+}
+
+.btn2 {
+    color: rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.60cm;
+    padding: 10px;
+    margin-top: 0cm;
+    margin-bottom: 1cm;
+    border-radius: 0px;
+    background: rgb(104, 104, 104) !important;
+    border:none !important;
+    border: 50% !important;
+
+}
+.btn2:active{
+    border: none !important;
+
+}
+
+
+
+.days {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 13px;
+    background-color: rgb(174, 168, 192);
+
+}
+
+::placeholder {
+
+    color: white
+}
+
+/* per le previsione future della giornata */
+
+
+/* covid 19 */
+.covidstat {
+    
+    text-align: center;
+    font-size: 1rem;
+    width: 8.50cm;
+    padding-bottom: 1cm ;
+
+
+}
+
+
+.hour {
+    padding: 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.466);
+    border-left: 1px solid rgba(255, 255, 255, 0.466);
+    border-right: 1px solid rgba(255, 255, 255, 0.466);
+    font-size: 1rem;
+
+}
+
+.year {
+ 
+padding: 2px;
+border: 1px solid rgba(255, 255, 255, 0.466);
+font-size: 1rem;
+}
+
+
+
+
+.p0 {
+
+    color: white;
+}
+
+.all{
+    padding-top: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.dina1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding-left: 15px;
+    width: 8.50cm;
+
+}
+
+
+
+.hrlines {
+    border-color: rgb(230, 228, 228); 
+    width: 8.50cm;
+}
+
+.divo{
+   margin-left: 1cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+}
+
+#tempAttuale {
+    margin-top: 0.70cm;
+}
+
+
+.TornaIndietro {
+    font-family:fantasy;
+    text-shadow: 1px 0 rgb(0, 0, 0), -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+    font-style: oblique;
+    font-size: 0.70cm;
+    color: rgb(255, 255, 255);
+    background-color: rgba(88, 88, 88, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/free-photo/abstract-backdrop-with-vibrant-multicolored-shapes-patterns-generated-by-ai_188544-15580.jpg");
+    background-position: 0%;
+    cursor: pointer;
+    transition-duration: 0.50s;
+  
+  }
+  
+  .TornaIndietro:hover {
+    background-position: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    color: rgb(255, 0, 157);
+    font-family: fantasy;
+    box-shadow: 0px 0px 0px 4px rgb(255, 0, 157);
+    transition-duration: 0.50s;
+  
+  }
+  
+  a {
+    margin: 0.31cm;
+  }
+  
+  .NavBar {
+  
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(65, 109, 255) !important;
+    border-bottom: 1px solid black;
+  
+  }
+  
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 0, 157);
+  }
