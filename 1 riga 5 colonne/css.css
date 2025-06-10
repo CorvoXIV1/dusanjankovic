@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(230, 242, 253);
+    font-size: 1cm;
+    margin: 0;
+
+}
+
+.Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: #000000;
+    text-decoration: underline;
+    font-family:fantasy;
+    text-shadow: 1.50px 1.40px #fff5d9;
+}
+
+.table {
+    margin-top: 3cm;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    padding: 1cm;
+    border-radius: 2%;
+    box-shadow: 0px 10px 10px 2px #3a3a3a;
+    background-color: rgb(230, 230, 230);
+ 
+}
+
+td {
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 2%;
+    padding: 2cm;
+    box-shadow: 0px 10px 10px 2px #3a3a3a;
+    border: 2px solid black;
+}
+
+td:hover {
+   color: white;
+   box-shadow: 0px 10px 10px 1px #000000;
+}
+
+.Colonna1 {
+    background-color: #FF0000;
+}
+.Colonna2 {
+    background-color:  #FF7F00;
+}
+.Colonna3 {
+    background-color:  #FFFF00;
+}
+.Colonna4 {
+    background-color:  #00FF00;
+}
+.Colonna5 {
+    background-color:  #0000FF;      
+}
+
+
+
+.Colonna1:hover {
+    background-color: #008000;
+}
+.Colonna2:hover {
+    background-color: #0000ff;
+}
+.Colonna3:hover {
+    background-color: #8f00ff;
+}
+.Colonna4:hover {
+    background-color: #FF0000;
+}
+.Colonna5:hover {
+    background-color: #FF8000;
+}
+
+.TornaIndietro {
+    font-family:fantasy;
+    text-shadow: 1px 0 rgb(0, 0, 0), -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+    font-style: oblique;
+    font-size: 0.70cm;
+    color: rgb(255, 255, 255);
+    background-color: rgba(88, 88, 88, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/free-photo/abstract-backdrop-with-vibrant-multicolored-shapes-patterns-generated-by-ai_188544-15580.jpg");
+    background-position: 0%;
+    cursor: pointer;
+    transition-duration: 0.50s;
+  
+  }
+  
+  .TornaIndietro:hover {
+    background-position: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    color: rgb(255, 0, 157);
+    font-family: fantasy;
+    box-shadow: 0px 0px 0px 4px rgb(255, 0, 157);
+    transition-duration: 0.50s;
+  
+  }
+  
+  a {
+    margin: 0.31cm;
+  }
+  
+  .NavBar {
+  
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(65, 109, 255) !important;
+    border-bottom: 1px solid black;
+  
+  }
+  
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 0, 157);
+  }
+  
